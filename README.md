@@ -17,38 +17,70 @@ This tool allows users to scan a range of ports on a target IP or hostname and i
 ✅ Simple and clean GUI (Tkinter)
 
 ✅ Save scan results to a file
+
 ✅ Stop scan anytime
+
 🛠️ Technologies Used
+
 Python 3
+
 Socket Programming
+
 Threading (Multithreading)
+
 Tkinter (GUI)
+
 Queue (Thread Communication)
+
 📸 GUI Overview
+
 🔹 Inputs
+
 Target (IP / Hostname)
+
 Start Port
+
 End Port
+
 🔹 Controls
+
 ▶️ Start Scan
+
 ⛔ Stop Scan
+
 🧹 Clear Results
+
 💾 Save Results
+
 ⚙️ How It Works
+
 The user enters the target IP/hostname and port range.
+
 The scanner resolves the hostname into an IP address.
+
 Multiple threads are created to scan ports simultaneously.
+
 Each thread attempts to establish a socket connection.
+
 Open ports are identified and displayed in real-time.
+
 ▶️ How to Run
+
 1. Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-2. Run the Application
-python main.py
+2. git clone https://github.com/your-username/your-repo-name.git
+
+3. cd your-repo-name
+
+4. Run the Application
+  
+5. python main.py
+ 
 📂 Output Example
+
 [+] Port 80 (HTTP) is open
+
 [+] Port 443 (HTTPS) is open
+
 ⚠️ Disclaimer
 
 This tool is intended for educational purposes only.
