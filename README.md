@@ -5,11 +5,17 @@ This tool allows users to scan a range of ports on a target IP or hostname and i
 
 🚀 Features
 ✅ Scan ports for any IP address or hostname
+
 ✅ Custom port range selection (0–65535)
+
 ✅ Multi-threaded scanning for high performance
+
 ✅ Real-time progress tracking
+
 ✅ Displays open ports with service names
+
 ✅ Simple and clean GUI (Tkinter)
+
 ✅ Save scan results to a file
 ✅ Stop scan anytime
 🛠️ Technologies Used
